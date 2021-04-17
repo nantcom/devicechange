@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+	  <TargetFramework>net5.0-windows</TargetFramework>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <RepositoryUrl>https://github.com/nantcom/devicechange</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>device, windows, windows message,</PackageTags>
+	  <PackageProjectUrl>https://github.com/nantcom/devicechange</PackageProjectUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <Copyright>2021 NantCom Co., Ltd.</Copyright>
+	  <Description>A NuGet package to detect device change in Windows</Description>
+	  <PackageId>NC-DeviceChange</PackageId>
+	  <Authors>Jirawat Padungkijjanont</Authors>
+	  <Company>NantCom Co., Ltd.</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="4.7.0" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
